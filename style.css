@@ -86,7 +86,7 @@ nav ul li a[href="#humanas"]:hover {
 
   min-height: 100vh; 
 
-  padding: 2.25rem;
+  padding: 4.5rem 2.25rem 2rem 2.25rem;
 }
 
 #inicio > span {
@@ -132,14 +132,69 @@ nav ul li a[href="#humanas"]:hover {
   border-radius: 2.5rem .75rem .75rem .75rem;
 }
 
-
-#exatas, #humanas {
+.acesso_olimpiadas {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 
-  padding: 2rem;
+  padding: 6rem 2rem 2rem 2rem;
   width: 100%;
   min-height: 100vh;
-  background-color: #00e88f;
+  
+}
+.acesso_olimpiadas h1{
+  font-size: 3rem;
+}
+.acesso_olimpiadas section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.acesso_olimpiadas section .linha{
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  gap: 2rem;
+}
+
+.acesso_olimpiadas section .olimpiadas{
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  height: 12rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: crimson;
+}
+
+.acesso_olimpiadas section .olimpiadas button{
+  width: 4.5rem;
+  height: 2rem;
+  border: none;
+
+  font-weight: 500;
+}
+
+.acesso_olimpiadas section .olimpiadas a:visited{
+  color: #fff;
+}
+
+.acesso_olimpiadas section .olimpiadas hgroup h3{
+  font-weight: 700;
+  
+}
+.acesso_olimpiadas section .olimpiadas hgroup h4{
+  font-weight: 500;
+}
+
+#exatas {
+  background-color: #00E88F;
+}
+
+#humanas{
+  background-color: #1e1e1e;
 }
