@@ -88,7 +88,7 @@ nav ul li a[href="#humanas"]:hover {
   justify-content: center;
   min-height: 100vh; 
 
-  padding: 6rem 2.25rem 0 2.25rem;
+  padding: 6rem 2.25rem 2.25rem 2.25rem;
 }
 
 #inicio > span {
