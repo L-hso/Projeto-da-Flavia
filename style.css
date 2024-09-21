@@ -216,3 +216,9 @@ nav ul li a[href="#humanas"]:hover {
       font-size: 3.5rem;
     }
 }
+
+@media (min-width: 1500px){
+  #inicio {
+      grid-template-columns: repeat(2, min(100%, 32rem));
+  }
+}
